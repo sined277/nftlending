@@ -1,0 +1,19 @@
+
+
+@mixin mediaTablet {
+    @media (max-width: 1400px) {
+        @content
+    }
+};
+
+@mixin smallTablet {
+    @media (max-width: 1200px) {
+        @content
+    }
+};
+
+@mixin smallSuperTablet {
+    @media (max-width: 800px) {
+        @content
+    }
+};
